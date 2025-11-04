@@ -1,3 +1,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Small tweaks for better mobile spacing */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Make images or backgrounds scale nicely */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure text wraps properly */
+p, h1, h2, h3, h4, h5, h6 {
+  word-wrap: break-word;
+}
