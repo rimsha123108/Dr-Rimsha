@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Rimsha Clinic</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body class="bg-gray-50 text-gray-800">
+  
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow-lg z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-green-700">Dr. Rimsha RPM Center</h1>
+      <ul class="flex space-x-6 font-semibold">
+        <li><a href="#home" class="hover:text-green-700 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-green-700 transition">About</a></li>
+        <li><a href="#services" class="hover:text-green-700 transition">Services</a></li>
+        <li><a href="#news" class="hover:text-green-700 transition">News & Events</a></li>
+        <li><a href="#contact" class="hover:text-green-700 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" 
+    class="h-screen bg-cover bg-center flex items-center justify-center text-center text-white relative overflow-hidden"
+    style="background-image: url('images/home-section.jpg'); animation: zoom-bg 20s infinite alternate;">
+    <div data-aos="zoom-in" class="bg-black bg-opacity-50 p-8 rounded-xl">
+      <h3 class="text-4xl md:text-6xl font-bold">Welcome to Dr. Rimsha Rehabilitation & Pain Management Center</h3>
+      <p class="mt-4 text-lg">Your health, our priority</p>
+    </div>
+  </section>
+
+  <style>
+  @keyframes zoom-bg {
+    0% { background-size: 100% 100%; }
+    100% { background-size: 110% 110%; }
+  }
+  </style>
+
+<!-- About -->
+<section id="about" class="py-16 bg-gray-50">
+  <div class="max-w-5xl mx-auto px-6 text-center" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-green-700">About Us</h2>
+    <p class="mt-4 text-lg text-gray-700">
+      At Dr. Rimsha RPM Center, we provide personalized physiotherapy treatments to help you recover, regain strength, and live a healthier life.
+    </p>
+  </div>
+
+  <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto px-6">
+    <!-- Founder & CEO -->
+    <div data-aos="fade-up" class="bg-white p-6 rounded-xl shadow-md">
+      <h3 class="text-xl font-semibold text-green-600">Founder & CEO</h3>
+      <p class="mt-2 text-gray-700">Dr. Rimsha Sadiq<br>
+         Dr. Rimsha Sadiq holds a degree in Physiotherapy and a Master’s in Neuromuscular Rehabilitation, 
+         complemented by a Postgraduate Diploma from FIFA Excellence Medical Centre, Dubai. 
+         She is a certified Acupuncture and Dry Needling Therapist, Kinesio Taping Specialist
+         and Cupping Therapist.</p>
+    </div>
+
+    <!-- Vision -->
+    <div data-aos="fade-up" data-aos-delay="100" class="bg-white p-6 rounded-xl shadow-md">
+      <h3 class="text-xl font-semibold text-green-600">Vision</h3>
+      <p class="mt-2 text-gray-700">To empower individuals to achieve a pain-free, healthier, and more active lifestyle 
+        by delivering world-class physiotherapy care. We aspire to become the most trusted physiotherapy 
+        and rehabilitation center in Pakistan, recognized for excellence, compassion, and innovation in patient care.</p>
+    </div>
+
+    <!-- Mission -->
+    <div data-aos="fade-up" data-aos-delay="200" class="bg-white p-6 rounded-xl shadow-md">
+      <h3 class="text-xl font-semibold text-green-600">Mission</h3>
+      <p class="mt-2 text-gray-700">To design personalized treatment plans tailored to each patient’s individual needs,
+         and to deliver exceptional physiotherapy care with compassion, dedication, and professional excellence.</p>
+    </div>
+
+    <!-- Core Values -->
+    <div data-aos="fade-up" data-aos-delay="300" class="bg-white p-6 rounded-xl shadow-md">
+      <h3 class="text-xl font-semibold text-green-600">Our Core Values</h3>
+      <p class="mt-2 text-gray-700">We believe in compassion, integrity, innovation, and teamwork to ensure the highest standards of patient care.</p>
+    </div>
+</section> 
+<!-- Aspiring Team -->
+<section class="py-12 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-2xl font-semibold text-green-600 text-center">Our Aspiring Team</h3>
+    <p class="mt-2 text-gray-700 text-center mb-8">
+      Our team of dedicated physiotherapists and specialists work collaboratively 
+      to create customized treatment plans, ensuring each patient receives the best possible outcome.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Doctor -->
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Habiba Khanum</h4>
+        <p class="text-gray-600">Physiotherapist & Musculoskeletal Physiotherapist</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Muddasir Ali</h4>
+        <p class="text-gray-600">Physical Therapist, Sports Physiotherapist, PGD Pain Management</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Naveed Ahmed</h4>
+        <p class="text-gray-600">Physiotherapist & Neuromuscular Physiotherapist</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Iqra Mustfah</h4>
+        <p class="text-gray-600">Clinical Psychologist</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Mariyam</h4>
+        <p class="text-gray-600">Specialist in Women’s Health</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Ayesha Sidra</h4>
+        <p class="text-gray-600">Paediatric Rehab Specialist</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Mazhar</h4>
+        <p class="text-gray-600">Medical Specialist, Family Health Specialist</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Samina</h4>
+        <p class="text-gray-600">Speech Therapist, Autism Specialist</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Nida</h4>
+        <p class="text-gray-600">Nutritionist and Dietitian</p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold text-gray-800">Dr. Saman</h4>
+        <p class="text-gray-600">Cardiac Rehabilitation Expert</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-green-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 data-aos="fade-up" class="text-3xl font-bold text-center text-green-700">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div data-aos="zoom-in" class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-xl font-bold mb-2 text-green-700">Physiotherapy</h3>
+          <p>Professional physiotherapy sessions tailored to your needs.</p>
+        </div>
+        <div data-aos="zoom-in" class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-xl font-bold mb-2 text-green-700">Neuromuscular Rehabilitation</h3>
+          <p>Helping restore mobility and function after injuries.</p>
+        </div>
+        <div data-aos="zoom-in" class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-xl font-bold mb-2 text-green-700">Dry Needling</h3>
+          <p>Effective treatment for muscle pain and tension.</p>
+        </div>
+        <div data-aos="zoom-in" class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-xl font-bold mb-2 text-green-700">Dry Cupping</h3>
+          <p>Boost blood flow and relieve muscle stiffness.</p>
+        </div>
+        <div data-aos="zoom-in" class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-xl font-bold mb-2 text-green-700">Wet Cupping (Hijama)</h3>
+          <p>Traditional therapy for detoxification and wellness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+<section id="news" class="py-16 max-w-6xl mx-auto px-4">
+  <h2 data-aos="fade-up" class="text-3xl font-bold text-center text-green-700">News & Events</h2>
+  <div id="events-container" class="grid md:grid-cols-2 gap-8 mt-8"></div>
+</section>
+
+
+  <!-- Contact -->
+ <section id="contact" class="py-16 bg-green-50">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 data-aos="fade-up" class="text-3xl font-bold text-green-700">Contact Us</h2>
+    <p class="mt-4 text-gray-700">Get in touch with us for appointments and queries.</p>
+
+    <form action="https://formspree.io/f/mwpnpgbk" method="POST"
+          data-aos="zoom-in"
+          class="mt-8 max-w-xl mx-auto bg-white p-6 rounded-xl shadow-lg">
+
+      <!-- IMPORTANT: Add name attributes -->
+      <input type="text" name="name" placeholder="Your Name" required
+             class="w-full mb-4 p-3 border rounded-lg focus:border-green-600 focus:ring-1 focus:ring-green-600">
+
+      <input type="email" name="email" placeholder="Your Email" required
+             class="w-full mb-4 p-3 border rounded-lg focus:border-green-600 focus:ring-1 focus:ring-green-600">
+
+      <input type="tel" name="phone" placeholder="Your Phone (optional)"
+             class="w-full mb-4 p-3 border rounded-lg focus:border-green-600 focus:ring-1 focus:ring-green-600">
+
+      <textarea name="message" placeholder="Your Message" rows="5" required
+                class="w-full mb-4 p-3 border rounded-lg focus:border-green-600 focus:ring-1 focus:ring-green-600"></textarea>
+
+      <!-- Optional extras -->
+      <input type="hidden" name="_subject" value="New Contact via Website">
+      <input type="hidden" name="_honeypot" value=""> <!-- basic spam trap -->
+
+      <button type="submit"
+              class="bg-green-700 text-white px-6 py-2 rounded-lg hover:bg-green-800 transition">
+        Send
+      </button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white py-6 text-center">
+    <p>&copy; 2025 Dr. Rimsha RPM Center. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+    // Load events from JSON file
+  fetch('events.json')
+    .then(response => response.json())
+    .then(events => {
+      const container = document.getElementById('events-container');
+      container.innerHTML = ''; // Clear previous content
+
+      events.forEach(event => {
+        const card = document.createElement('div');
+        card.className = 'p-6 bg-white rounded-xl shadow-lg border-l-4 border-green-600';
+        card.setAttribute('data-aos', 'fade-up');
+        card.innerHTML = `
+          <h3 class="font-bold text-xl text-green-700">${event.title}</h3>
+          <p class="text-sm text-gray-500">${event.date}</p>
+          <p class="mt-2 text-gray-700">${event.description}</p>
+        `;
+        container.appendChild(card);
+      });
+
+      // Re-initialize AOS for new elements
+      if (AOS) AOS.refresh();
+    })
+    .catch(error => {
+      console.error('Error loading events:', error);
+      document.getElementById('events-container').innerHTML =
+        '<p class="text-center text-gray-500">No upcoming events right now.</p>';
+    });
+  </script>
+</body>
+</html>
