@@ -17,3 +17,36 @@ img, video {
 p, h1, h2, h3, h4, h5, h6 {
   word-wrap: break-word;
 }
+/* Responsive hero image fix */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image fills area without distortion */
+  object-position: center; /* Keeps important part of image centered */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .hero {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh;
+  }
+}
